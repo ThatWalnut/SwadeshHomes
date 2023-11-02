@@ -10,13 +10,14 @@ h1{
 }
 
 .bodytext{
-    font-size: 12px;
+    font-size: 17px;
     color:white;
 }
 
 #logo{
     height:90px;
     opacity: 0.6;
+    border-radius: 10px;
 }
 
 #background{
@@ -38,9 +39,11 @@ nav>ul{
     padding-right: 10px;
     font-size:1.2rem;
     position: center;
+    gap: 0;
+    font-weight: 200;
 
 }
-a:visited{
+nav a:visited, nav a:active{
     color: white;
 }
 
@@ -50,25 +53,74 @@ a:visited{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: white;    
     
+}
+#whitestrip{
+    height: 10px;
+    background-color: rgb(96,138,121);
 }
 .bckgrdIMG{
     background-image: url("Images/SSbackground.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height:500px;
+    padding-top: 25px;
+    height: 575px;
     margin: 0;
     position: relative;
     filter: blur(0.7px);
+    display: flex;
+    justify-content: space-between;
+
  
 }
 .bannertext{
     opacity: .7;
     color:black;
-    font-size: 4rem;
+    font-size: 7rem;
 }
 main{
     text-align: center;
     color: white;
+}
+#ad1{
+    margin: auto;
+    height: 600px;
+    display: block;
+    width:auto;
+   
+}
+
+#banner{
+    background-color: rgb(96,138,121);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.banner-buttons{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+#banner a{
+    color: rgb(58,58,58);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+#mission-statement{
+    width: 30%;
+
+}
+#mission-container{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+footer{
+    height: 300px;
+    background-color: rgb(96,138,121);
+    
 }
