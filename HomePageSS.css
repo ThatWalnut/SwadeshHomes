@@ -41,6 +41,7 @@ header{
     margin-top: -10px;
     margin-left: -10px;
     gap: 300px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5); /* Adjust shadow values as needed */
     
 }
 #logo-text{
@@ -90,6 +91,11 @@ nav a:hover{
     margin-right: -10px;
 }
 
+.spacer{
+    height:100px;
+
+}
+
 #top-bar{
     background-color: rgb(81, 139, 36);
     height: 6px;
@@ -133,18 +139,17 @@ nav a:hover{
 
 }
 main{
-    text-align: center;
-    color: white;
+
 }
 #ad1{
-    margin: auto; 
-    height: 600px;
-    display: block;
-    width: 102%;
-    border-color: black;
-    background-color: rgb(96,138,121);
-    margin-left:-10px;
-    margin-right:-20px;
+    margin:auto;
+    width: 60%;
+    height: 40%;
+}
+#vid{
+    border: 20px solid;
+    border-color: rgb(96,138,121);
+    border-radius: 20px;
 }
 #banner{
     background-color: rgba(81, 139, 36, 0.35);
@@ -283,8 +288,56 @@ main{
     margin-top: 100px;
     margin: auto;
 }
+#project-table{
+    margin:auto;
+    border-collapse: collapse;
+    margin-top: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+#project-table td{
+    border: 5px solid;
+    height: 50px;
+   
+}
+#sidebar-1:hover, #sidebar-2:hover, #sidebar-3:hover, #sidebar-4:hover, #sidebar-5:hover{
+    opacity: 1;
+}
+#sidebar-1:active, #sidebar-2:active, #sidebar-3:active, #sidebar-4:active, #sidebar-5:active{
+    width:45px;
+    height: 45px;
+}
+#sidebar-1, #sidebar-2, #sidebar-3, #sidebar-4, #sidebar-5{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    border: 0px;
+    opacity: 0.7;
+}
+#sidebar-1{
+    background-image: url("Images/sidebar-1.png");
+}
+#sidebar-2{
+    background-image: url("Images/sidebar-2.png");
+}
+#sidebar-3{
+    background-image: url("Images/sidebar-3.png");
+}
+#sidebar-4{
+    background-image: url("Images/sidebar-4.png");
+}
+#sidebar-5{
+    background-image: url("Images/sidebar-5.png");
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    position:fixed;
+    margin-top: 50px;
+}
 footer{
-    height: 600px;
+    height: 300px;
     background-color: rgb(96,138,121);
     width: 102%;
     margin-bottom: -10px;
