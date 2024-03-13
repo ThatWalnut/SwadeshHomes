@@ -295,9 +295,10 @@ main{
     text-align: center;
     vertical-align: middle;
 }
-#project-table td{
+#project-table td,#project-table th{
     border: 5px solid;
     height: 50px;
+    background-color: rgba(96,138,121,0.4);
    
 }
 #sidebar-1:hover, #sidebar-2:hover, #sidebar-3:hover, #sidebar-4:hover, #sidebar-5:hover{
@@ -313,6 +314,16 @@ main{
     background-size: cover;
     border: 0px;
     opacity: 0.7;
+}
+#prjct-slideshow{
+    margin: auto;
+    height:600px;
+    width: 600px;
+    background-image: url("Images/Family1.jpg");
+}
+.slide{
+    height:100px;
+    width: 200px;
 }
 #sidebar-1{
     background-image: url("Images/sidebar-1.png");
