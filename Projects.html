@@ -6,6 +6,8 @@
         <meta charset="UTF-8">
         <meta name="description" content="Swadesh Homes Foundation Charity Website"> 
         <link rel="stylesheet" href="HomePageSS.css" type="text/css">
+        <link rel="stylesheet" href="ProjectsSS.css" type="text/css">
+        <link rel="stylesheet" href="Sidebar.css" type="text/css">
         <link rel="icon" type="image/x-icon" href="Images\SH.png">
     </head>
     <body>
@@ -42,46 +44,53 @@
             <a href="https://www.facebook.com" target="_blank"><button type="button" id="sidebar-4"></button></a>
             <a href="https://www.instagram  .com" target="_blank"><button type="button" id="sidebar-5"></button></a>
         </aside>
-        <table id="project-table">
-        <tr>
-            <th>Family</th>
-            <th>Description of Property and Home to be Built</th>
-            <th>Loctaion</th>
-        </tr>
-        <tr>
-            <td>Saroj and Shyamsundar</td>
-            <td>Home already build. Required renovation and extension</td>
-            <td>Mavaiya, Sarnath, Varanasi</td>
-        </tr>
-        <tr>
-            <td>Rekha Devi & Lakshamn Rajbhar</td>
-            <td>1 of 5 new flats built on a 1400 Sq ft property</td>
-            <td>Mavaiya, Sarnath, Varanasi</td>
-        </tr>
-        <tr>
-            <td>Jeeavn Lal & Rinku Devi (Rekha's Family)</td>
-            <td>1 of 5 new flats built on a 1400 Sq ft property</td>
-            <td>Mavaiya, Sarnath, Varanasi</td>
-        </tr>
-        <tr>
-            <td>Bharat Rajbhar & Sunita Devi  (Rekha's family)</td>
-            <td>1 of 5 new flats built on a 1400 Sq ft property</td>
-            <td>Mavaiya, Sarnath, Varanasi</td>
-        </tr>
-        <tr>
-            <td>Arjun & Soni Dev (Rekha's family)</td>
-            <td>1 of 5 new flats built on a 1400 Sq ft property</td>
-            <td>Mavaiya, Sarnath, Varanasi</td>
-        </tr>
-        <tr>
-            <td>Ramji Rajbhar (Rekha's family)</td>
-            <td>1 of 5 new flats built on a 1400 Sq ft property</td>
-            <td>Mavaiya, Sarnath, Varanasi</td>
-        </tr>
-       </table>
+        <div id="table-slideshow-container">
+            <table id="project-table">
+            <tr>
+                <th>Family</th>
+                <th>Description of Property and Home to be Built</th>
+                <th>Locataion</th>
+            </tr>
+            <tr>
+                <td><button id="family1">Saroj and Shyamsundar</button></td>
+                <td>Home already build. Required renovation and extension</td>
+                <td>Mavaiya, Sarnath, Varanasi</td>
+            </tr>
+            <tr>
+                <td><button id="family2">Rekha Devi & Lakshamn Rajbhar</button></td>
+                <td>1 of 5 new flats built on a 1400 Sq ft property</td>
+                <td>Mavaiya, Sarnath, Varanasi</td>
+            </tr>
+            <tr>
+                <td><button id="family3">Jeeavn Lal & Rinku Devi (Rekha's Family)</button></td>
+                <td>1 of 5 new flats built on a 1400 Sq ft property</td>
+                <td>Mavaiya, Sarnath, Varanasi</td>
+            </tr>
+            <tr>
+                <td><button id="family4">Bharat Rajbhar & Sunita Devi  (Rekha's family)</button></td>
+                <td>1 of 5 new flats built on a 1400 Sq ft property</td>
+                <td>Mavaiya, Sarnath, Varanasi</td>
+            </tr>
+            <tr>
+                <td><button id="family5">Arjun & Soni Dev (Rekha's family)</button></td>
+                <td>1 of 5 new flats built on a 1400 Sq ft property</td>
+                <td>Mavaiya, Sarnath, Varanasi</td>
+            </tr>
+            <tr>
+                <td><button id="family6">Ramji Rajbhar (Rekha's family)</button></td>
+                <td>1 of 5 new flats built on a 1400 Sq ft property</td>
+                <td>Mavaiya, Sarnath, Varanasi</td>
+            </tr>
+            </table>
+            <div id="slideshow-container">
+                <div id="prjct-slideshow">
+                </div>
+                <span id="slideshow-caption">Saroj and Shyamsundar</span>
+            </div>
+        </div>
      <div class="spacer"></div>      
-       <div id="prjct-slideshow">
-       </div>
+      
+       <script src="ProjectSlideshow.js"></script>
     </main>
     <footer id="footer"></footer>
 </body>
