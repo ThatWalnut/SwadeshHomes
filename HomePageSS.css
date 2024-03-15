@@ -6,8 +6,6 @@
 body{
     background-color: white;
 }
-
-
 .bodytext{
     font-size: 17px;
     color:black;
@@ -143,7 +141,7 @@ nav a:hover{
 #vid{
     border: 20px solid;
     border-color: rgb(96,138,121);
-    border-radius: 20px;
+    border-radius: 0px;
 }
 #banner{
     background-color: rgba(81, 139, 36, 0.35);
@@ -180,7 +178,7 @@ nav a:hover{
 #mission-statement{
     width: 30%;
     background-color: #426E48;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 0 10px;
     margin-bottom: 30px;
     padding-left: 50px;
@@ -188,6 +186,7 @@ nav a:hover{
     border: 10px, solid;
     border-color: black;
     color: white;
+    text-align: center;
 }
 #mission-container{
     display: flex;
@@ -225,13 +224,28 @@ nav a:hover{
     transform: scale(1.4);
     transition: transform 0.5s ease-in-out;
 }
-
-
-
 footer{
-    height: 300px;
     background-color: rgb(96,138,121);
     width: 102%;
     margin-bottom: -10px;
     margin-left:-10px;
+}
+#copyright{
+    text-align: center;
+    color: white;
+    background-color: rgb(96,138,121);
+    padding-top: 0px;
+}
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin:auto;
+    height:200px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+.message-style{
+    width:80%;
 }

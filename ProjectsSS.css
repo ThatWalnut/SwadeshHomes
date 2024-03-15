@@ -1,4 +1,12 @@
-#prjct-slideshow{
+#project-intro{
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    padding-top: 50px;
+}
+#p1-prjct-slideshow{
     margin: auto;
     height:600px;
     width: 600px;
@@ -10,14 +18,14 @@
  
 }
 
-#project-table{
+#p1-project-table{
     margin:auto;
     border-collapse: collapse;
     margin-top: 100px;
     text-align: center;
     vertical-align: middle;
 }
-#project-table td,#project-table th{
+#p1-project-table td,#p1-project-table th{
     border: 1px solid;
     height: 50px;
     background-color: rgba(96,138,121,0.4);
@@ -25,27 +33,75 @@
     width: 300px;
    
 }
-#project-table th{
+#p1-project-table th{
     background-color: darkgray;
 }
-#table-slideshow-container{
+#p1-table-slideshow-container{
     display: flex;
     width: 93%;
     flex-direction: row;
     margin-top: 50px;
     justify-content: flex-start;
 }
-#slideshow-container{
+#p1-slideshow-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-#slideshow-caption{
+#p1-slideshow-caption{
     margin: auto;
     margin-top: 20px;
-    font-size: 25   px;
+    font-size: 25px;
 }
-#family1, #family2, #family3, #family4, #family5, #family6{
+#p1-family1, #p1-family2, #p1-family3, #p1-family4, #p1-family5, #p1-family6,
+#p2-family1, #p2-family2, #p2-family3, #p2-family4, #p2-family5, #p2-family6{
     width: 100%;
     height: 100%;
+}
+#p2-prjct-slideshow{
+    margin: auto;
+    height:600px;
+    width: 600px;
+    background-image: url("Images/Family2.jpg");
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+    background-position: center;
+    border-radius: 50px;
+ 
+}
+
+#p2-project-table{
+    margin:auto;
+    border-collapse: collapse;
+    margin-top: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+#p2-project-table td,#p2-project-table th{
+    border: 1px solid;
+    height: 50px;
+    background-color: rgba(96,138,121,0.4);
+    padding: 10px;
+    width: 300px;
+   
+}
+#p2-project-table th{
+    background-color: darkgray;
+}
+#p2-table-slideshow-container{
+    display: flex;
+    width: 93%;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+#p2-slideshow-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#p2-slideshow-caption{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
 }
