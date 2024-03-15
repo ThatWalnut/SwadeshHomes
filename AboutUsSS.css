@@ -24,16 +24,17 @@
     font-weight: 900;
     position: relative;
     top: -30px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .icon-1-text,.icon-2-text,.icon-3-text,.icon-4-text{
     color: black;
-    width: 60%;
+    width: 70%;
     position: relative;
     top: -50px;
     margin: auto;
     text-align: justify;
     height: 120px;
+    font-size: 17px;
 }
 .icon-1-card, .icon-2-card, .icon-3-card, .icon-4-card{
     display: flex;
@@ -61,16 +62,11 @@
     margin: auto;
 }
 #mission-intro{
-    width: 800px;
+    width: 50%;
     background-color:#426E48;
     color: white;
     padding: 25px;
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 30px;
     margin: 25px auto -25px auto;
-    transition: transform 0.5s ease-in-out;
-}
-#mission-intro:hover{
-    transform: scale(1.2);
-    transition: transform 0.5s ease-in-out;
 }

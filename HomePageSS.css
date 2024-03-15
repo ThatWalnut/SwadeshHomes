@@ -245,7 +245,9 @@ footer{
     vertical-align: middle;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .message-style{
-    width:80%;
+    width:90%;
+    margin-top: 10px;
 }
