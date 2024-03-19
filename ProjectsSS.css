@@ -105,3 +105,13 @@
     margin-top: 20px;
     font-size: 25px;
 }
+#project-intro{
+    background-color: #608A79;
+    margin:75px auto auto auto;
+    color: white;
+    padding: 25px;
+    font-size: 1.2vw;
+    text-align: center;
+    vertical-align: middle;
+    height: 20%;
+}

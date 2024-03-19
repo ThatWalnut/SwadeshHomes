@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
@@ -127,7 +127,7 @@ nav a:hover{
     text-align: center;
     opacity: .7;
     color:black;
-    font-size: 4.2rem;
+    font-size: 3vw;
     width: 60%;
     margin: auto;
     margin-top: 225px;
@@ -149,13 +149,11 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    margin-left: -10px;
+    padding: 0px -200px 0px -200px;
     z-index: 3;
-    margin-top: 75px;
-
-
-
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .banner-buttons{
     background-color:white;
@@ -172,6 +170,7 @@ nav a:hover{
     color: rgb(58,58,58);
     text-decoration: none;
     font-weight: bold;
+    font-size: 1vw;
     
 }
 
@@ -225,7 +224,7 @@ nav a:hover{
     transition: transform 0.5s ease-in-out;
 }
 footer{
-    background-color: rgb(96,138,121);
+    background-color: #608A79;
     width: 102%;
     margin-bottom: -10px;
     margin-left:-10px;
@@ -233,21 +232,54 @@ footer{
 #copyright{
     text-align: center;
     color: white;
-    background-color: rgb(96,138,121);
+    background-color: #608A79;
     padding-top: 0px;
 }
-#contact{
+#form-1, #form-2, #form-3, #form-4 {
+    width: 100%;
+    margin: 10px;
+    padding: 2px;
+    color: white;
+    font-size: 1vw;
+}
+#form-1, #form-2, #form-3{
+    height: 40px;
+}
+#form-1, #form-2{
+    width:47%;
+}
+#form-4{
+    height: 100px;
+}
+.contact-input{
+    width: 100%;
+    height: 90%;
+    background-color: #9DC496;
+    border: none;
+    border-radius: 10px;
+}
+#contact-form{
+    width: 50%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
-    margin:auto;
-    height:200px;
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    justify-content: space-between;
+    padding-top: 30px;
 }
-.message-style{
-    width:90%;
-    margin-top: 10px;
+#contact-submit{
+    margin: 30px auto 30px auto;
+    background-color: #497043;
+    border-radius: 10px;
+    border-color: #426E48;
+    width: 10vw;
+    height: 1.5vw;
+    color: #B5CEB2;
+}
+#contact-text{
+    margin: auto;
+    width: 40%;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    font-size: 1.3vw;
 }

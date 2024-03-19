@@ -40,11 +40,13 @@ P1Family6.onclick = function() {
 };
 P2Family1.onclick = function() {
     P2SlideShow.style.backgroundImage = `url('${imgURLs[2]}')`;
-    slideShowCaption.innerText = "Ramji Rajbhar (Rekha's family)"
+    P2SlideShowCaption.innerText = "Ramji Rajbhar (Rekha's family)"
 };
 P2Family2.onclick = function() {
     P2SlideShow.style.backgroundImage = `url('${imgURLs[3]}')`;
+    P2SlideShowCaption.innerText = "asdfasdfasdf"
 };
 P2Family3.onclick = function() {
     P2SlideShow.style.backgroundImage = `url('${imgURLs[4]}')`;
+    P2SlideShowCaption.innerText = "asdfasdfasdfasdf"
 };

@@ -20,7 +20,7 @@
                 <li><a href="AboutUs.html" style="text-decoration:none">About Us</a></li>
                 <li><a href="Exhibits.html" style="text-decoration:none">Exhibits</a></li>
                 <li><a href="Projects.html" style="text-decoration:none">Projects</a></li>
-                <li><a href="Contact.html" style="text-decoration:none">Contact</a></li>
+                <li><a href="#footer" style="text-decoration:none">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -67,6 +67,28 @@
         </div>
         
             </main>
-        <footer id="footer"></footer>
+            <footer id="footer">     
+                <div id="contact-text">To find out more about this organization send a message using the form below, and we will contact you as soon as possible.</div>
+                <form id="contact-form" name="contact-form">
+                    <div id="form-1">
+                        <label for="contact-name">Name:</label><br>
+                        <input type="text" id="contact-name" name="contact-name" class="contact-input">
+                    </div>
+                    <div id="form-2">
+                        <label for="contact-number">Phone:</label><br>
+                        <input type="text" id="contact-number" name="contact-number" class="contact-input">
+                    </div>
+                    <div id="form-3">
+                        <label for="contact-email">E-Mail:</label><br>
+                        <input type="text" id="contact-email" name="contact-email" class="contact-input">
+                    </div>
+                    <div id="form-4">
+                        <label for="contact-message">Message:</label><br>
+                        <textarea name="contact-message" id="contact-message" class="contact-input"></textarea>
+                    </div>
+                    <input type="submit" id="contact-submit">
+                </form>                 
+            <div id="copyright">© Swadesh Homes Foundation Inc.</div>
+        </footer>
     </body>
 </html>
