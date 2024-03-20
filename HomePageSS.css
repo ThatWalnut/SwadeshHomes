@@ -42,7 +42,7 @@ header{
 #logo-text{
     font-size: 3rem;
     text-align: center;
-    color: rgb(81, 139, 36);
+    color: #497043;
     vertical-align: center;
     position: center;
     margin-top: 8px;
@@ -112,7 +112,7 @@ nav a:visited{
   } 
 .divider{
     height: 10px;
-    background-color: rgb(81, 139, 36);
+    background-color: #497043;
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -123,7 +123,7 @@ nav a:visited{
 }
 
 #top-bar{
-    background-color: rgb(81, 139, 36);
+    background-color:#497043;
     height: 6px;
     z-index: 6;
     position: fixed;
@@ -165,7 +165,7 @@ nav a:visited{
 
 }
 #ad1{
-    margin:auto;
+    margin:100px auto 100px auto;
     width: 60%;
     height: 40%;
 }
@@ -306,4 +306,36 @@ footer{
     width: 10vw;
     height: 1.5vw;
     color: #B5CEB2;
+}
+#gallery{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#gallery-background{
+    margin:auto;
+    height: 500px;
+    width: 80%;
+    background-color: #ABABAB;
+    margin-bottom: 100px;
+}
+#gallery-left-button{
+    height: 50px;
+    width: 50px;
+    background-color: #ABABAB;
+}
+#gallery-right-button{
+    height: 50px;
+    width: 50px;
+    background-color: #ABABAB;
+}
+#gallery-slide{
+    height: 100%;
+    width: 70%;
+    background-image: url("Images/builder.jpg");
+    background-size: cover;
+
 }
