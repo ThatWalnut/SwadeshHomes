@@ -51,6 +51,7 @@ header{
     margin-left: -100px;
     min-width: 35%;
     padding-left: 200px;
+    text-wrap: nowrap;
 
 }
 nav{
@@ -80,6 +81,7 @@ nav a:visited{
 .btn {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
+    text-wrap: nowrap;
   } 
 .btn:hover{
     cursor: pointer;
